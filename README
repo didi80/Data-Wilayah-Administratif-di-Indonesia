@@ -1,0 +1,13 @@
+Data wilayah yang tersedia (IDTerritory-20170525-csv.rar dan IDTerritory-20170525-sql.rar) bersumber dari situs http://jendela.data.kemdikbud.go.id/
+
+Data diunduh menggunakan API yang tersedia yaitu dengan mengakses url berikut:
+
+http://jendela.data.kemdikbud.go.id/api/index.php/CWilayah/wilayahGET?mst_kode_wilayah=xxxxxx
+
+xxxxxx merupakan kode wilayah yang akan dijadikan master kode wilayah untuk menampilkan data wilayah di bawahnya
+
+Misalnya jika xxxxxx adalah kode wilayah propinsi, maka akan menampilkan daftar kabupaten/kota di dalam propinsi tersebut
+
+Jika Anda ingin menampilkan data wilayah secara online di situs atau aplikasi Anda, Anda bisa menggunakan file form.php dan update.php
+
+Uraian lebih lanjut tentang API Data Wilayah ini bisa Anda simak di http://usmandidikhamdani.blogspot.co.id/2017/05/api-data-wilayah-administratif-di.html
